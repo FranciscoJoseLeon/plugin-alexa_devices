@@ -173,6 +173,10 @@ class alexa_devices extends eqLogic {
         log::add('alexa_devices', 'info', 'Alexa Devices daemon stopped.');
     }
 
+    public static function deamon_changeAutoMode($_mode) {
+        config::save('deamonAutoMode', $_mode, 'alexa_devices');
+    }
+
     public static function dependancy_info() {
         $return = array();
         $return['log'] = log::getPathToLog('alexa_devices_dep');

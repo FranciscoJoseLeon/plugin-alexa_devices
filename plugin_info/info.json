@@ -12,6 +12,10 @@
   "licence": "GPL",
   "version": "0.9.0",
   "require": "4.2",
+  "os": {
+    "min": 10,
+    "max": 12.99
+  },
   "language": [
     "fr_FR",
     "en_US",
@@ -22,12 +26,16 @@
   "maxDependancyInstallTime": 25,
   "changelog": "https://github.com/FranciscoJoseLeon/plugin-alexa_devices/blob/main/docs/#language#/changelog.md",
   "documentation": "https://github.com/FranciscoJoseLeon/plugin-alexa_devices/blob/main/docs/#language#/index.md",
+  "changelog_beta": "https://github.com/FranciscoJoseLeon/plugin-alexa_devices/blob/beta/docs/#language#/changelog.md",
+  "documentation_beta": "https://github.com/FranciscoJoseLeon/plugin-alexa_devices/blob/beta/docs/#language#/index.md",
   "compatibility": [
-    "miniplus",
     "smart",
+    "luna",
+    "atlas",
     "rpi",
     "docker",
     "diy",
+    "mobile",
     "v4"
   ]
 }

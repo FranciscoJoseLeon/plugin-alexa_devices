@@ -15,6 +15,8 @@ try {
         throw new Exception(__('401 - Unauthorized access', __FILE__));
     }
 
+    ajax::init();
+
     $action = init('action');
 
     if ($action == 'getAuthStatus') {
